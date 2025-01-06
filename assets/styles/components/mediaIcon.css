@@ -1,0 +1,11 @@
+.media {
+  width: 32px;
+  aspect-ratio: 1;
+}
+.media__icon {
+  width: 100%;
+  aspect-ratio: 1;
+}
+.media__icon:hover {
+  filter: brightness(0) invert(1);
+}/*# sourceMappingURL=mediaIcon.css.map */

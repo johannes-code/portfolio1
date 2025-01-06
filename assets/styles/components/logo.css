@@ -1,0 +1,11 @@
+.logo {
+  display: flex;
+  gap: 8px;
+}
+.logo__img {
+  aspect-ratio: 1;
+  width: 16px;
+}
+.logo__name {
+  font-weight: 700;
+}/*# sourceMappingURL=logo.css.map */

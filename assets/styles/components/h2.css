@@ -1,0 +1,23 @@
+.h2 {
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+  float: none;
+  clear: both;
+  display: inline-block;
+}
+.h2::before {
+  content: "#";
+  color: var(--primary);
+}
+.h2::after {
+  content: "";
+  display: block;
+  width: 10vw;
+  height: 1px;
+  background-color: var(--primary);
+  position: absolute;
+  transform: translate(100%, -50%);
+  right: -16px;
+  top: 50%;
+}/*# sourceMappingURL=h2.css.map */

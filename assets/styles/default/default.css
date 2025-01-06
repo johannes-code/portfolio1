@@ -1,0 +1,16 @@
+body, html {
+  background-color: var(--#282C33);
+  color: var(--white);
+  font-family: "Fira Code", monospace;
+  display: flex;
+  gap: 112px;
+  flex-direction: column;
+}
+
+.dots {
+  width: 10vmin;
+  height: auto;
+}
+.dots circle {
+  fill: var(--gray);
+}/*# sourceMappingURL=default.css.map */
