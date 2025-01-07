@@ -2,4 +2,5 @@ siden skal genereres som en js fil, ingen index.html
 hente all informasjon fra json fil, eller fetche fra andre sider
 css bygd opp i tailwind/sass
 animasjoner i js
+bedre organisering
 
