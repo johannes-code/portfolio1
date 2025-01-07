@@ -1,0 +1,14 @@
+@import "header.scss";
+@import "variables.scss";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    display: border-box;
+}
+
+body {
+    
+}
+
