@@ -1,5 +1,6 @@
-@import "header.scss";
-@import "variables.scss";
+@import "./header/header.css";
+@import "./footer/footer.css";
+
 
 
 *{

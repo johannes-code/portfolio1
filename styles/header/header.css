@@ -1,3 +1,74 @@
+body, html {
+  background-color: var(--background);
+  color: var(--white);
+  font-family: "Fira Code", monospace;
+  display: flex;
+  gap: 112px;
+  flex-direction: column;
+}
+
+.dots {
+  width: 10vmin;
+  height: auto;
+}
+.dots circle {
+  fill: var(--gray);
+}
+
+@font-face {
+  font-family: "Fira Code";
+  font-weight: 300;
+  font-style: normal;
+  src: url("fonts/FiraCode-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Fira Code";
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/FiraCode-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Fira Code";
+  font-weight: 500;
+  font-style: normal;
+  src: url("fonts/FiraCode-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Fira Code";
+  font-weight: 600;
+  font-style: normal;
+  src: url("fonts/FiraCode-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Fira Code";
+  font-weight: 700;
+  font-style: normal;
+  src: url("fonts/FiraCode-Bold.woff") format("woff");
+}
+.h2 {
+  font-size: 32px;
+  font-weight: 500;
+  position: relative;
+  float: none;
+  clear: both;
+  display: inline-block;
+}
+.h2::before {
+  content: "#";
+  color: var(--primary);
+}
+.h2::after {
+  content: "";
+  display: block;
+  width: 10vw;
+  height: 1px;
+  background-color: var(--primary);
+  position: absolute;
+  transform: translate(100%, -50%);
+  right: -16px;
+  top: 50%;
+}
+
 :root {
   --primary: hsl(287 60% 65%);
   --primary-op: hsl(287 60% 65% / 0.1);
@@ -5,6 +76,18 @@
   --gray-op: hsl(219 14% 71% / 0.1);
   --background: hsl(218 12% 18%);
   --white: hsl(0 0% 100%);
+}
+
+.logo {
+  display: flex;
+  gap: 8px;
+}
+.logo__img {
+  aspect-ratio: 1;
+  width: 16px;
+}
+.logo__name {
+  font-weight: 700;
 }
 
 .media-header {
@@ -15,7 +98,7 @@
   justify-content: center;
   left: 16px;
   gap: 8px;
-  top: 0px;
+  top: 0;
 }
 @media (max-width: 1024px) {
   .media-header {

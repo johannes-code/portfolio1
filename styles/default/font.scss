@@ -1,0 +1,50 @@
+$fonts: (
+  "Light": 300,
+  "Regular": 400,
+  "Medium": 500,
+  "SemiBold": 600,
+  "Bold": 700
+);
+$format: "woff";
+
+@each $name, $weight in $fonts {
+  @font-face {
+    font: {
+      family: "Fira Code";
+      weight: $weight;
+      style: normal;
+    }
+    src: url("fonts/FiraCode-#{$name}.#{$format}") format($format);
+  }
+}
+
+.h2 {
+  font: {
+      size: 32px;
+      weight: 500;
+  }
+  
+  position: relative;
+  float: none;
+  clear: both;
+  display: inline-block;
+  
+  &::before {
+      content: "#";
+      color: var(--primary);
+  }
+  
+  &::after {
+      content: "";
+      display: block;
+      width: 10vw;
+      height: 1px;
+      background-color: var(--primary);
+      position: absolute;
+      transform: translate(100%, -50%);
+      right: -16px;
+      top: 50%;
+  }
+}
+
+
