@@ -11,6 +11,6 @@
   border-color: var(--gray);
   color: var(--gray);
 }
-.button__secondary:hover {
+.button:hover {
   background-color: var(--gray-op);
 }/*# sourceMappingURL=button.css.map */

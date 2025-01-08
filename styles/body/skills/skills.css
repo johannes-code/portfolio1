@@ -1,0 +1,65 @@
+:root {
+  --primary: hsl(287 60% 65%);
+  --primary-op: hsl(287 60% 65% / 0.1);
+  --gray: hsl(219 14% 71%);
+  --gray-op: hsl(219 14% 71% / 0.1);
+  --background: hsl(218 12% 18%);
+  --white: hsl(0 0% 100%);
+}
+
+.skills {
+  width: 100%;
+}
+.skills__content {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.skills .skill-block {
+  margin-bottom: 16px;
+}
+.skills__list {
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  -moz-columns: 3;
+       columns: 3;
+}
+@media (max-width: 768px) {
+  .skills__list {
+    -moz-columns: 2;
+         columns: 2;
+  }
+}
+@media (max-width: 500px) {
+  .skills__list {
+    -moz-columns: 1;
+         columns: 1;
+  }
+}
+.skills__illustrations, .skills__list {
+  flex: 1 1 0;
+}
+
+.illustrations {
+  position: relative;
+  min-width: 300px;
+  min-height: 300px;
+}
+.illustrations__logo {
+  width: 14vmin;
+  top: 30%;
+  position: absolute;
+  left: 70%;
+}
+.illustrations .dots:nth-of-type(2) {
+  width: 16vmin;
+  top: 70%;
+  left: 10%;
+  position: absolute;
+}
+.illustrations .dots:nth-of-type(1) {
+  width: 10vmin;
+  top: 20%;
+  left: 40%;
+  position: absolute;
+}/*# sourceMappingURL=skills.css.map */

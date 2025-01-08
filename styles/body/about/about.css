@@ -1,12 +1,3 @@
-:root {
-  --primary: hsl(287 60% 65%);
-  --primary-op: hsl(287 60% 65% / 0.1);
-  --gray: hsl(219 14% 71%);
-  --gray-op: hsl(219 14% 71% / 0.1);
-  --background: hsl(218 12% 18%);
-  --white: hsl(0 0% 100%);
-}
-
 .about {
   display: flex;
   gap: 32px;
