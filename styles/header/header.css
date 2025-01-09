@@ -14,6 +14,24 @@ body, html {
 .dots circle {
   fill: var(--gray);
 }
+.dots .container {
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .dots .container {
+    padding: 16px;
+  }
+}
+.dots .content {
+  margin-top: 112px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 112px;
+}
 
 @font-face {
   font-family: "Fira Code";
