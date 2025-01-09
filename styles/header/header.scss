@@ -148,14 +148,14 @@ $screen: 768px;
         position: relative;
     }
 
-    &__links {
+    &__link {
         margin-left: auto;
         display: flex;
         align-items: flex-start;
         gap: 32px;
     }
     
-    &__link {
+    &__links {
         color: var(--gray);
 
         &_active {
