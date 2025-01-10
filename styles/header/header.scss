@@ -183,25 +183,6 @@ $screen: 768px;
     }
 }
 
-.container{
-
-    max-width: vars.$desktopScreen;
-    margin: 0 auto;
-    position: relative;
-
-    @media (max-width: vars.$desktopScreen){
-        padding: 16px;
-
-.content {
-    margin-top: 112px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 112px;
-}
-    }
-}
 
 .dropdown {
     color: var(--gray);
