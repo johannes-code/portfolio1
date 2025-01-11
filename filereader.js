@@ -1,3 +1,5 @@
+import "./footer.js";
+
 document.addEventListener("DOMContentLoaded", function () {
   fetch("assets/locales/en.json")
     .then((response) => {
@@ -8,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .then((data) => {
       const dataDisplay = document.getElementById("dataDisplay");
+      const footerDisplay =document.getElementById("footerDisplay");
 
       //Function to make links
       function createLink(text, href) {
@@ -22,7 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
       const projectsLink = createLink(data.header.projects, "#projects");
       const aboutLink = createLink(data.header.about, "#about");
       const contactsLink = createLink(data.header.contacts, "#contacts");
-
+      
+      
       // Adds links to datadisplay div
       dataDisplay.appendChild(homeLink);
       dataDisplay.appendChild(projectsLink);
@@ -30,13 +34,27 @@ document.addEventListener("DOMContentLoaded", function () {
       dataDisplay.appendChild(contactsLink);
 
       // Add spaces between links
-
       dataDisplay.insertAdjacentHTML("afterbegin", " #");
       Array.from(dataDisplay.children).forEach((child) => {
         if (child.nextSibling) {
           child.insertAdjacentHTML("afterend", " #");
         }
       });
+
+      //Produce footer based on JSON
+      const descriptionElement = document.createElement("p");
+      descriptionElement.textContent = data.footer.description;
+      const copyrightElement = document.createElement("p");
+      copyrightElement.textContent = data.footer.copyright;
+      const mediaElement = document.createElement("p");
+      mediaElement.textContent = data.footer.media;
+
+
+      //Adds elements to footerDisplay
+      footerDisplay.appendChild(descriptionElement);
+      footerDisplay.appendChild(copyrightElement);
+      footerDisplay.appendChild(mediaElement);
+
     })
     .catch((error) => console.error("Error fetching JSON data: ", error));
 });
