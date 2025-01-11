@@ -9,24 +9,25 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((data) => {
       const dataDisplay = document.getElementById("dataDisplay");
 
-      // Opprett HTML-elementer for å vise JSON-data
-      const headerElement = document.createElement("p");
-      headerElement.textContent = data.header.home;
+      //Function to make links
+      function createLink(text, href) {
+        const link = document.createElement("a");
+        link.textContent = text;
+        link.href = href;
+        return link;
+      }
 
-      const projectsElement = document.createElement("p");
-      contactsElement.textContent = projects.header.contacts;
-
-      const aboutElement = document.createElement("p");
-      aboutElement.textContent = data.header.about;
-
-      const contactsElement = document.createElement("p");
-      contactsElement.textContent = data.header.contacts;
+      //Produce html links based on JSON
+      const homeLink = createLink(data.header.home, "#home");
+      const projectsLink = createLink(data.header.projects, "#projects");
+      const aboutLink = createLink(data.header.about, "#about");
+      const contactsLink = createLink(data.header.contacts, "#contacts");
 
       // Legg til elementene i "dataDisplay" div
-      dataDisplay.appendChild(headerElement);
-      dataDisplay.appendChild(projectsElement);
-      dataDisplay.appendChild(aboutElement);
-      dataDisplay.appendChild(contactsElement);
+      dataDisplay.appendChild(homeLink);
+      dataDisplay.appendChild(projectsLink);
+      dataDisplay.appendChild(aboutLink);
+      dataDisplay.appendChild(contactsLink);
     })
     .catch((error) => console.error("Error fetching JSON data: ", error));
 });
