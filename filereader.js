@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
       dataDisplay.appendChild(contactsLink);
 
       // Add spaces between links
-      dataDisplay.insertAdjacentHTML("beforeend", " #");
+
       dataDisplay.insertAdjacentHTML("afterbegin", " #");
       Array.from(dataDisplay.children).forEach((child) => {
         if (child.nextSibling) {
