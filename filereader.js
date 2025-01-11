@@ -23,11 +23,20 @@ document.addEventListener("DOMContentLoaded", function () {
       const aboutLink = createLink(data.header.about, "#about");
       const contactsLink = createLink(data.header.contacts, "#contacts");
 
-      // Legg til elementene i "dataDisplay" div
+      // Adds links to datadisplay div
       dataDisplay.appendChild(homeLink);
       dataDisplay.appendChild(projectsLink);
       dataDisplay.appendChild(aboutLink);
       dataDisplay.appendChild(contactsLink);
+
+      // Add spaces between links
+      dataDisplay.insertAdjacentHTML("beforeend", " #");
+      dataDisplay.insertAdjacentHTML("afterbegin", " #");
+      Array.from(dataDisplay.children).forEach((child) => {
+        if (child.nextSibling) {
+          child.insertAdjacentHTML("afterend", " #");
+        }
+      });
     })
     .catch((error) => console.error("Error fetching JSON data: ", error));
 });
