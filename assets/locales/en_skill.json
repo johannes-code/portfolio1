@@ -1,0 +1,10 @@
+{
+        "skills": {
+            "programming": ["Python", "C", "C#", "C++", "Java", "JavaScript"],
+            "database":  ["mySQL"],
+            "other": ["Html", "Css", "Sass", "Scss"],
+            "tool": ["VScode", "Nano", "Vim", "GitHub"],
+            "framework": ["Next"]
+        }}
+    
+    
