@@ -68,23 +68,25 @@
             "description": "Who am i",
             "about": {
                 "description": [
-                    "I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. ",
-                    "Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. ",
-                    "I always strive to learn about the newest technologies and frameworks. "
+                    "Computers has been one of my interests since I was about 11years old.",
+                    "However the last 4-5years ive focused more and more of my time on this interest, because I want to do this for a living.",
+                    "My passion is both whats going on in the background, and what the costumer sees."
                 ]
             },
             "skills": {
                 "title": "skills"
             },
+
             "facts": {
                 "title": "fun-facts",
                 "list": [
-                    "I like winter more than summer", 
-                    "I often bike with my friends",
-                    "I like pizza and pasta", 
-                    "My favorite movie is The Green Mile"
+                    "I like summer more than i like winter", 
+                    "I can fix my own car",
+                    "I like sushi and pizza, but not at the same time ;)", 
+                    "I love 80's car movies"
                 ]
             }
+         
         },
         "contacts": {
             "description": "How to contact me"

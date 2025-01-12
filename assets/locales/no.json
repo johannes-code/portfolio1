@@ -1,106 +1,88 @@
 {
     "header": {
-        "home": "home",
-        "projects": "projects",
-        "about": "about-me",
-        "contacts": "contacts"
+        "home": "hjem",
+        "projects": "prosjekter",
+        "about": "om-meg",
+        "contacts": "kontakt"
     },
     "footer": {
-        "description": "Fullstack developer that loves tech",
-        "copyright": "Copyright 2025. Made by Johannes",
+        "description": "Fullstack utvikler som er glad i teknologi",
+        "copyright": "Copyright 2025. Laget av Johannes",
         "media": "Media"
     },
     "skills": {
-        "language": "Languages",
-        "database": "Databases",
-        "other": "Other",
-        "tool": "Tools",
-        "framework": "Frameworks"
+        "language": "Språk",
+        "database": "Database",
+        "other": "Annet",
+        "tool": "Verktøy",
+        "framework": "Rammeverk"
     },
     "projects": {
-        "chertnodes": {
-            "name": "ChertNodes",
-            "description": "Minecraft servers hosting"
-        },
-        "protectx": {
-            "name": "ProtectX web",
-            "description": "Discord anti-crash bot"
-        },
-        "khanswers": {
-            "name": "Kahoot Answers",
-            "description": "Get answers from kahoot quiz"
-        },
-        "kotikbot": {
-            "name": "KotikBot",
-            "description": "Landing for multi-functional cute discord bot"
-        },
         "portfolio": {
-            "name": "This Portfolio",
-            "description": "My personal portfolio"
+            "name": "Denne Portfolioen",
+            "description": "Min personlige portfolio"
         }
         
     },
     "pages": {
         "home": {
             "hero": {
-                "title": "Elias is a <span>web designer</span> and <span>front-end</span> developer",
-                "description": "He crafts responsive websites where technologies meet creativity",
-                "button": "Contact ME",
-                "status": "Open for new opportunities"
+                "title": "Johannes er en <span>fullstack-utvikler</span> som <span>bygger bro</span> mellom brukeropplevelse og <span>teknologisk innovasjon</span>",
+                "description": "Med kompetanse innenfor både front-end og back-end utvikling, skaper han innovative digitale løsninger som er like funksjonelle som de er intuitive",
+                "button": "Kontakt MEG",
+                "status": "Tilgjengelig for nye oppdrag"
             },
             
             "projects": {
-                "title": "projects",
-                "button": "View all"
+                "title": "prosjekter",
+                "button": "Se alle"
             },
             "skills": {
-                "title": "skills"
+                "title": "ferdigheter"
             },
             "about": {
-                "title": "about",
+                "title": "om meg",
                 "description": [
-                    "I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. ",
-                    "Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks."
-                ],
+                    "Jeg er en fullstack utvikler med stor interesse for funksjonable og teknologiske løsninger"
+                 ],
                 "button": "View all"
             },
             "contacts": {
-                "title": "contacts",
-                "text": "I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me",
-                "media": "Message me here",
-                "donate": "Donate me here"
+                "title": "kontakt meg",
+                "text": "Hvis du har forespørsler eller andre spørsmål, ikke nøl med å ta kontakt",
+                "media": "Kontakt meg her"
             }
         },
         "projects": {
-            "description": "All of my projects",
-            "decent": "decent",
-            "small": "small",
-            "inProgress": "unfinished"
+            "description": "Alle mine prosjekter",
+            "decent": "Større",
+            "small": "små",
+            "inProgress": "Uferdig"
         },
         "about": {
-            "description": "Who am i",
+            "description": "Hvem er jeg",
             "about": {
                 "description": [
-                    "I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. ",
-                    "Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. ",
-                    "I always strive to learn about the newest technologies and frameworks. "
+                    "Datamaskiner har vært en av interessene mine siden jeg var 11år gammel.",
+                    "De siste 4-5årene har jeg fokusert mer av tiden min på denne interessen fordi det er et ønske å ha dette som jobb.",
+                    "Min begeistring handler både om det som foregår i bakgrunnen og det som kan sees av brukeren. "
                 ]
             },
             "skills": {
-                "title": "skills"
+                "title": "ferdigheter"
             },
             "facts": {
-                "title": "fun-facts",
+                "title": "visste du at",
                 "list": [
-                    "I like winter more than summer", 
-                    "I often bike with my friends",
-                    "I like pizza and pasta", 
-                    "My favorite movie is The Green Mile"
+                    "Jeg liker sommer mer enn vinter", 
+                    "Jeg kan reparere min egen bil",
+                    "Jeg liker sushi og pizza, men ikke sammen ;)", 
+                    "Jeg elsker bilfilmer fra 80-tallet"
                 ]
             }
         },
         "contacts": {
-            "description": "How to contact me"
+            "description": "Hvordan kontakte meg"
         }
     }
 }
