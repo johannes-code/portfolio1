@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "name": "Prosjekt 1",
+            "tech": ["Teknologi 1", "Teknologi 2"],
+            "description": "En kort beskrivelse av prosjektet 1.",
+            "link": "https://www.example.com/prosjekt1"
+        },
+        {
+            "name": "Prosjekt 2",
+            "tech": ["Teknologi 3", "Teknologi 4"],
+            "description": "En kort beskrivelse av prosjektet 2.",
+            "link": "https://www.example.com/prosjekt2"
+        }
+    ]
+}
