@@ -1,5 +1,7 @@
 import "./footer.js";
 
+
+
 document.addEventListener("DOMContentLoaded", function () {
   fetch("assets/locales/en.json")
     .then((response) => {
