@@ -1,3 +1,5 @@
+@use "variables" as *;
+
 
 body, html {
     background-color: var(--background);
@@ -17,11 +19,11 @@ body, html {
 
 .container{
 
-    max-width: vars.$desktopScreen;
+    max-width: $desktopScreen;
     margin: 0 auto;
     position: relative;
 
-    @media (max-width: vars.$desktopScreen){
+    @media (max-width: $desktopScreen){
         padding: 16px;
 
 .content {

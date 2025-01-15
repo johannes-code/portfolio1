@@ -1,6 +1,6 @@
 @use "../../styles/default/default";
 @use "../../styles/default/font";
-@use "../../styles/default/variables" as vars;
+@use "../../styles/default/variables";
 @use "../../styles/default/logo";
 
 $screen: 768px;
@@ -15,7 +15,7 @@ $screen: 768px;
     gap: 8px;
     top: 0;
 
-    @media (max-width: vars.$desktopScreen) {
+    @media (max-width: $desktopScreen) {
         display: none;
     }
 
@@ -60,7 +60,7 @@ $screen: 768px;
         right: 0;
     }
 
-    @media (max-width: vars.$desktopScreen) {
+    @media (max-width: $desktopScreen) {
         display: block;
 
         &:checked {
@@ -174,7 +174,7 @@ $screen: 768px;
         }
     }
 
-    @media (max-width: vars.$desktopScreen) {
+    @media (max-width: $desktopScreen) {
         padding-top: 16px;
 
         &__links, .dropdown {
