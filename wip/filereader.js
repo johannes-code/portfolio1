@@ -1,4 +1,4 @@
-import "./footer.js";
+import "../src/components/Footer/Footer.jsx";
 
 
 
