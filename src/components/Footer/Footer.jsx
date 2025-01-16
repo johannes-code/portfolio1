@@ -7,9 +7,9 @@ export function Footer(){
                         <div className="footer__header">
                             <div className="logo">
                                 <img src="/images/logo.svg" alt="logo" className="logo__img"/>
-                                <div className="logo__name">Elias</div>
+                                <div className="logo__name">Johannes</div>
                             </div>
-                            <a className="footer__email" href="${media.email}">${media.emailRaw}</a>
+                            <a className="footer__email" href="${contactinfo.mail}">${contactinfo.mail}</a>
                         </div>
 
                         <p className="footer__description">${Footer.description}</p>
