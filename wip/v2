@@ -1,11 +1,13 @@
 siden skal genereres som en js fil, ingen index.html
 hente all informasjon fra json fil, eller fetche fra andre sider
-css bygd opp i tailwind/scss
+
 animasjoner i js
 bedre organisering
 css loading
 
-bygge api for å oppdatere siden next.js
+backend with userpanel and users, avatars and settings
 
 
+
+== copyright info year with hooks
 
