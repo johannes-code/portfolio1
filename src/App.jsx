@@ -1,14 +1,13 @@
-import {Header} from "./components/Header/Header"
-import {Footer} from "./components/Footer/Footer"
 import './App.css'
+import { SiteLoader } from '../wip/filereaderWorking'
 
 function App() {
   
   return (
     <>
 
-   <Header/>
-   <Footer/>
+   <SiteLoader/>
+   
    
    
    </>

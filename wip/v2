@@ -1,29 +1,4 @@
-siden skal genereres som en js fil, ingen index.html
-hente all informasjon fra json fil, eller fetche fra andre sider
-
-animasjoner i js
-bedre organisering
-css loading
-
-backend with userpanel and users, avatars and settings
-
-
-
-== copyright info year with hooks
-
-
-===============================================================
-import Records from './records.json';
-
-return(
-    {
-        Records && Records.map( record => {
-            return(
-                <div className="box" key{record.id}>
-                {record.title}
-                {record.content}
-                </div>
-            )
-        })
-    }
-)
+siden skal genereres som en js fil, ingen index.html hente all informasjon fra
+json fil, eller fetche fra andre sider animasjoner i js bedre organisering css
+loading backend with userpanel and users, avatars and settings == copyright info
+year with hooks
