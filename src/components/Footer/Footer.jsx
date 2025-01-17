@@ -1,5 +1,5 @@
 import {contactinfo} from '../../../public/assets/locales/static.json'
-import 
+import { mediaIcon } from '../../../public/assets/locales/static.json'
 
 export function Footer(){
     return(
@@ -21,7 +21,7 @@ export function Footer(){
                         <div className="footer__title">${Footer.media}</div>
                         <div className="footer__list">
                             ${["github", "discord"]
-                                .map((name) => MediaIcon({ name }))
+                                .map((name) => mediaIcon({ name }))
                                 .join("")}
                         </div>
                     </div>

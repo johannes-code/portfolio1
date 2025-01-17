@@ -11,6 +11,17 @@
     "Copyright":{
         "copy":"©+ year"
 
+    },
+
+    "mediaIcon":{
+        "discord": "./public/assets/images/icons/discord.svg",
+        "dribble": "./public/assets/images/icons/dribble.svg",
+        "email": "./public/assets/images/icons/email.svg",
+        "figma": "./public/assets/images/icons/figma.svg",
+        "github": "./public/assets/images/icons/github.svg",
+        "linkedin": "./public/assets/images/icons/linkedin.svg",
+        "telegram": "./public/assets/images/icons/telegram.svg",
+        "twitter": "./public/assets/images/icons/twitter.svg"
     }
 }
 
