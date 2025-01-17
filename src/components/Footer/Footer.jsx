@@ -1,3 +1,6 @@
+import {contactinfo} from '../../../public/assets/locales/static.json'
+import 
+
 export function Footer(){
     return(
         <footer className="footer">
@@ -23,7 +26,7 @@ export function Footer(){
                         </div>
                     </div>
                 </div>
-                <div className="footer__copyright">© ${Footer.copyright}</div>
+                <div className="footer__copyright">© ${contactinfo.Copyright}</div>
             </div>
 
         </footer>

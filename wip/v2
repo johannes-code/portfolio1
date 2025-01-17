@@ -11,3 +11,19 @@ backend with userpanel and users, avatars and settings
 
 == copyright info year with hooks
 
+
+===============================================================
+import Records from './records.json';
+
+return(
+    {
+        Records && Records.map( record => {
+            return(
+                <div className="box" key{record.id}>
+                {record.title}
+                {record.content}
+                </div>
+            )
+        })
+    }
+)
