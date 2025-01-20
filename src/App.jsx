@@ -1,13 +1,14 @@
 import './App.css'
-import { SiteLoader } from './siteLoader'
+import { Button } from './components/Button/button'
+import { HeaderLoader, SiteLoader } from './siteLoader'
 
 function App() {
   
   return (
     <>
 
-   <SiteLoader/>
-   
+   <HeaderLoader/>
+    {/* <Button href="https://www.vg.no/" text="VG.NO"/> */}
    
    
    </>
