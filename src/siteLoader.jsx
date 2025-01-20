@@ -5,7 +5,7 @@ export function SiteLoader() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("./public/assets/locales/static.json")
+    fetch("./src/Header/header.jsx")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok " + response.statusText);

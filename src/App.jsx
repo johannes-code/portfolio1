@@ -1,5 +1,5 @@
 import './App.css'
-import { SiteLoader } from '../wip/filereaderWorking'
+import { SiteLoader } from './siteLoader'
 
 function App() {
   
