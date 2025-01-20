@@ -1,7 +1,10 @@
-@use "../../styles/default/default";
-@use "../../styles/default/font";
-@use "../../styles/default/variables";
-@use "../../styles/default/logo";
+/* Header */
+
+
+@use "/src/components/default/variables.scss";
+@use "/src/components/default/default.scss";
+@use "/src/components/default/font";
+@use "/src/components/default/logo";
 
 $screen: 768px;
 

@@ -1,16 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import {Header} from "./components/Header/Header.jsx"
 import data from "./locales/en.json"
 
 export function HeaderLoader() {
   
-  return (
-    <div>
-      <p>{data.header.home}</p>
-      <p>{data.header.projects}</p>
-      <p>{data.header.about}</p>
-      <p>{data.header.contacts}</p>
-    </div>
+  return( 
+    <Header data={data.header} />
   );
 }
+
+console.log(data)
 
 
