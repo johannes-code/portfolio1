@@ -1,6 +1,6 @@
 import './App.css'
 import { Button } from './components/Button/button'
-import { HeaderLoader, SiteLoader } from './siteLoader'
+import { HeaderLoader} from './HeaderLoader'
 
 function App() {
   
