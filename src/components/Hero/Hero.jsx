@@ -1,5 +1,6 @@
 import React from 'react';
 import logoImg from '/assets/images/logo.svg';
+import "/locales/en.json"
 
 
 export function Hero (){

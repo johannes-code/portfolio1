@@ -1,14 +1,14 @@
 import './App.css'
 import { Button } from './components/Button/button'
 import { HeaderLoader} from './HeaderLoader'
-
+import { HeroLoader } from './HeaderLoader'
 function App() {
   
   return (
     <>
 
-   <HeaderLoader/>
-    {/* <Button href="https://www.vg.no/" text="VG.NO"/> */}
+   <HeaderLoader/>,
+  <HeroLoader/>
    
    
    </>
