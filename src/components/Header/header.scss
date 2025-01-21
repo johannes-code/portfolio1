@@ -1,7 +1,7 @@
 /* Header */
 
 
-@use "/src/components/default/variables.scss";
+@use "/src/components/default/variables.scss" as *;
 @use "/src/components/default/default.scss";
 @use "/src/components/default/font";
 @use "/src/components/default/logo";

@@ -2,7 +2,7 @@ import React from 'react';
 import logoImg from '/assets/images/logo.svg';
 import githubIcon from '/assets/images/icons/github.svg';
 import emailIcon from '/assets/images/icons/email.svg';
-import styles from "./header.scss";
+import "./header.scss";
 
 export function Header({ data }) {
   
