@@ -1,16 +1,16 @@
-button {
+.button {
   display: inline-block;
   padding: 8px 16px;
   border: 1px solid var(--primary);
   font-weight: 500;
 }
-button:hover {
+.button:hover {
   background-color: var(--primary-op);
 }
-button__secondary {
+.button__secondary {
   border-color: var(--gray);
   color: var(--gray);
 }
-button:hover {
+.button:hover {
   background-color: var(--gray-op);
-} /*# sourceMappingURL=button.css.map */
+}/*# sourceMappingURL=button.css.map */

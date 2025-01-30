@@ -1,3 +1,8 @@
+$desktopScreen: 1024px;
+$tabletScreen: 768px;
+$mobileScreen: 500px;
+
+
 :root {
     --primary: hsl(287 60% 65%);
     --primary-op: hsl(287 60% 65% / 0.1);
@@ -8,8 +13,7 @@
 };
 
 
-$desktopScreen: 1024px;
-$tabletScreen: 768px;
-$mobileScreen: 500px;
+
+
 
 

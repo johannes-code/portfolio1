@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import { Button } from './components/Button/button'
 import { HeaderLoader} from './HeaderLoader'
 
