@@ -1,9 +1,0 @@
-@import "./header/header.css";
-@import "./body/body.css";
-@import "./footer/footer.css";
-
-* {
-  margin: 0px;
-  padding: 0px;
-  display: border-box;
-}

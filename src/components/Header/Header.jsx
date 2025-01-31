@@ -1,8 +1,7 @@
-import React from 'react';
 import logoImg from '/assets/images/logo.svg';
 import githubIcon from '/assets/images/icons/github.svg';
 import emailIcon from '/assets/images/icons/email.svg';
-import "./header.scss";
+import "./header.css";
 
 export function Header({ data }) {
   
