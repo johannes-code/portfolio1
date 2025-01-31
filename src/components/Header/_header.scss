@@ -1,6 +1,7 @@
-@use "../default/default.scss";
-@use "../default/font.scss";
-@use "../default/logo.scss";
+@use "../../styles/default/default";
+@use "../../styles/default/font";
+@use "../../styles/default/variables";
+@use "../../styles/default/logo";
 
 $screen: 768px;
 

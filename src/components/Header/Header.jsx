@@ -2,12 +2,10 @@ import React from 'react';
 import logoImg from '/assets/images/logo.svg';
 import githubIcon from '/assets/images/icons/github.svg';
 import emailIcon from '/assets/images/icons/email.svg';
-import styles from './header.css';
+import "./header.scss";
 
-
-
-
-export function Header() {
+export function Header({ data }) {
+  
   return (
     <header className="header">
       <input className="hamburger" type="checkbox" aria-label="Menu" />
@@ -32,7 +30,10 @@ export function Header() {
             <span className="logo__name">Johannes</span>
           </a>
           <div className="header__links">
-            <div id="dataDisplay"></div>
+            <a href="/">{data.home}</a>
+            <a href="/projects">{data.projects}</a>
+            <a href="/about">{data.about}</a>
+            <a href="/contacts">{data.contacts}</a>
           </div>
           <div className="dropdown">
             <span className="dropdown__label">EN</span>
