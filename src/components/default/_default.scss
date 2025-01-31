@@ -29,7 +29,7 @@ html {
     margin: 0 auto;
     position: relative;
 
-    @media (max-width: $desktopScreen) {
+    @media (max-width: --desktopScreen) {
       padding: 16px;
 
       .content {

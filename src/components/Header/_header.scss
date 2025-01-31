@@ -1,8 +1,6 @@
 @use "../default/default.css";
 @use "../Logo/logo.css";
 
-$screen: 768px;
-
 .media-header {
   position: fixed;
   display: flex;
@@ -13,7 +11,7 @@ $screen: 768px;
   gap: 8px;
   top: 0;
 
-  @media (max-width: $desktopScreen) {
+  @media (max-width: --desktopScreen) {
     display: none;
   }
 
@@ -59,7 +57,7 @@ $screen: 768px;
     right: 0;
   }
 
-  @media (max-width: $desktopScreen) {
+  @media (max-width: --desktopScreen) {
     display: block;
 
     &:checked {
@@ -173,7 +171,7 @@ $screen: 768px;
     }
   }
 
-  @media (max-width: $desktopScreen) {
+  @media (max-width: --desktopScreen) {
     padding-top: 16px;
 
     &__links,
